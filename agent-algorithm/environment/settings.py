@@ -1,0 +1,15 @@
+from enum import Enum
+
+DEFAULT_AUTOPLAY = False
+
+DISABLE_DISPLAY = False
+
+GRID_SIZE = 30
+MAXROW = 20
+MAXCOL = 10
+CANVAS_WIDTH = GRID_SIZE * (7 + MAXCOL)
+CANVAS_HEIGHT = GRID_SIZE * (4 + MAXROW)
+
+class Direction(Enum):
+    LEFT = -1
+    RIGHT = 1
