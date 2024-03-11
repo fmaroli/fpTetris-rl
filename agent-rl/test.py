@@ -4,7 +4,7 @@ from environment.tetris import Tetris
 width = 10
 height = 20
 block_m = 30
-saved_path = "models"
+saved_path = "agent-rl/models"
 
 def test():
 
