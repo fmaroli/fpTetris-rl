@@ -1,0 +1,5 @@
+numpy==1.24.3
+opencv_python==4.9.0.80
+Pillow==10.2.0
+tensorboardX==2.6.2.2
+torch==2.1.2+cu121
